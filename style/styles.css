@@ -1,82 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    text-align: center;
     margin: 0;
-    font-family: Inconsolata;
-}
-.header {
     font-family: 'Roboto', sans-serif;
-    background: #1F2937;
     display: flex;
-    justify-content: space-between;
-    padding: 8px;
-    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
-.header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
+
+img {
+    height: 200px;
 }
 
 a {
     text-decoration: none;
-    font-size: 18px;
     color: #E5E7EB;
+    padding: 8px;
 }
-ul{
-    list-style: none;
+ul {
     display: flex;
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 8px;
+    gap: 16px
 }
-.hero {
+
+.header {
+    font-family: 'Inconsolata';
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: #1F2937;
 }
-.hero-subtext {
-    font-size: 18px;
-    color: #E5E7EB;
+.header-logo {
+    font-size: 28px;
+    color: #F9FAF8;
+    display: flex;
+    padding: 4px 32px; 
 }
+
+.hero {
+    background-color: #1F2937;
+}
+
 .hero-main {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
-.information {
-    display: flex;
-    justify-content: center;
-    gap: 52px;
-    margin-bottom: 32px;
+
+.hero-secondary, .header-link {
+    font-size: 18px;
+    color: #E5E7EB;
 }
-.titulo {
+
+.button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    padding: 8px 16px;
+}
+
+.title {
     margin-bottom: 32px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
 }
-.info {
-    max-width: 200px;
-}
-img {
-    width: auto;
-    height: 100px;
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
 }
 
-.calltoaction {
-    color: #E5E7EB;
-    background-color: #3882F6;
-    border-radius: 4px;    
-}
-
-.button {
-    background-color: #3882F6;
-}
-
-.quote {
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-weight: light;
-    font-style: italic;
-    color: #1F2937;
-}
 .footer {
     bottom: 0;
     left: 0;
